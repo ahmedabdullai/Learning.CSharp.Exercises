@@ -14,13 +14,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".asdf", ".asdf", "{C4EAB3CD-AEC8-4F7E-95BF-FAA36C665D92}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workf", "workf", "{B3CDF657-B8DA-48D8-A54B-243BCF203FC8}"
-	ProjectSection(SolutionItems) = preProject
-		deploy.yml = deploy.yml
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,10 +35,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{C4EAB3CD-AEC8-4F7E-95BF-FAA36C665D92} = {5C12A2FA-9E1A-4679-A0DE-B646AE46E49F}
-		{B3CDF657-B8DA-48D8-A54B-243BCF203FC8} = {C4EAB3CD-AEC8-4F7E-95BF-FAA36C665D92}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61AE6F62-DD13-43C5-9C2F-4183618BAA48}
