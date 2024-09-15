@@ -3,26 +3,28 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvironmentVariables", "EnvironmentVariables\EnvironmentVariables.csproj", "{11683AC9-CB80-4C4B-8793-BAAD8C0305DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnvironmentVariables", "EnvironmentVariables\EnvironmentVariables.csproj", "{11683AC9-CB80-4C4B-8793-BAAD8C0305DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoshEvents", "MoshEvents\MoshEvents.csproj", "{2A9000E8-191C-41E6-B93C-77939F54DE67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoshEvents", "MoshEvents\MoshEvents.csproj", "{2A9000E8-191C-41E6-B93C-77939F54DE67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatDelegateEventExample", "ChatDelegateEventExample\ChatDelegateEventExample.csproj", "{94C2F96F-60C6-460C-AED4-464D52C237F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatDelegateEventExample", "ChatDelegateEventExample\ChatDelegateEventExample.csproj", "{94C2F96F-60C6-460C-AED4-464D52C237F3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5C12A2FA-9E1A-4679-A0DE-B646AE46E49F}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoshExtensionMethods", "MoshExtensionMethods\MoshExtensionMethods.csproj", "{EC99AEFC-C311-4EB1-9E23-07993E992060}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoshExtensionMethods", "MoshExtensionMethods\MoshExtensionMethods.csproj", "{EC99AEFC-C311-4EB1-9E23-07993E992060}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoshLINQ", "MoshLINQ\MoshLINQ.csproj", "{93C9528A-8416-45E1-95DD-66EA7F52B6CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoshLINQ", "MoshLINQ\MoshLINQ.csproj", "{93C9528A-8416-45E1-95DD-66EA7F52B6CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoshNullableTypes", "MoshNullableTypes\MoshNullableTypes.csproj", "{9AE42245-42B5-4EE3-85AF-72041ECC0ED5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoshNullableTypes", "MoshNullableTypes\MoshNullableTypes.csproj", "{9AE42245-42B5-4EE3-85AF-72041ECC0ED5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoshDynamic", "MoshDynamic\MoshDynamic.csproj", "{F96C0048-FC79-42D0-AF24-30A7E62E1CB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoshDynamic", "MoshDynamic\MoshDynamic.csproj", "{F96C0048-FC79-42D0-AF24-30A7E62E1CB5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoshExceptionHandling", "ExceptionHandling\MoshExceptionHandling.csproj", "{857EA680-D0EB-4344-A66E-BC4955DB8FE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoshAsynchronousProgrammingWithAsync", "MoshAsynchronousProgrammingWithAsync\MoshAsynchronousProgrammingWithAsync.csproj", "{19C79213-B322-473B-8B79-8F8BC52F4859}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +64,10 @@ Global
 		{857EA680-D0EB-4344-A66E-BC4955DB8FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{857EA680-D0EB-4344-A66E-BC4955DB8FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{857EA680-D0EB-4344-A66E-BC4955DB8FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19C79213-B322-473B-8B79-8F8BC52F4859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C79213-B322-473B-8B79-8F8BC52F4859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C79213-B322-473B-8B79-8F8BC52F4859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C79213-B322-473B-8B79-8F8BC52F4859}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
